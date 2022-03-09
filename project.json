@@ -1,5 +1,5 @@
 {
-  "name": "ACME_Adv_1",
+  "name": "Hash_UIP_Adv",
   "description": "Robotic Enterprise Framework for the Advanced Ui Path exercice 1",
   "main": "Main.xaml",
   "dependencies": {
