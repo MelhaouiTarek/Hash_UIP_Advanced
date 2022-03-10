@@ -51,7 +51,6 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="CloseTab" sap:VirtualizedContainerService.HintSize="376,375" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -63,7 +62,7 @@
     <ui:LogMessage DisplayName="Log Message for closing tab" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Sending Close Tab Hotkey&quot;]" />
     <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Sending CloseTab Hotkey" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="w" KeyModifiers="Ctrl" SpecialKey="False">
       <ui:SendHotkey.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="408e495e-8226-4102-b3ca-d9a7dfb70dd7" InformativeScreenshot="f6e9b968db1845dee40eca3c9849af4b" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Work Items - Google Chrome' /&gt;&lt;wnd cls='Intermediate D3D Window' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="408e495e-8226-4102-b3ca-d9a7dfb70dd7" InformativeScreenshot="f6e9b968db1845dee40eca3c9849af4b" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' omit:title='ACME System 1 - Work Items - Google Chrome' /&gt;&lt;wnd cls='Intermediate D3D Window' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
