@@ -69,7 +69,6 @@
   <Sequence DisplayName="GetWorkItemData" sap:VirtualizedContainerService.HintSize="376,1158" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="RawClientData" />
-      <Variable x:TypeArguments="x:String" Name="ClientID" />
       <Variable x:TypeArguments="s:String[]" Name="ClientData" />
       <Variable x:TypeArguments="x:String" Name="IdWithBreak" />
       <Variable x:TypeArguments="x:String" Name="CountryWithBreak" />
@@ -150,6 +149,6 @@
         <InArgument x:TypeArguments="x:String">[IdWithBreak.Remove(IdWithBreak.Length-1)+"-"+NameWithBreak.Remove(NameWithBreak.Length-1).Remove(0,1)+"-"+CountryWithbreak.Remove(CountryWithbreak.Length-1).Remove(0,1)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Parsed the gathered info to : &quot;+out_ClientPreHash]" />
+    <ui:LogMessage DisplayName="Log Message pre Hash " sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Parsed the gathered info to : &quot;+out_ClientPreHash]" />
   </Sequence>
 </Activity>
