@@ -5873,8 +5873,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "ACME_Adv_1",
-      "projectName": "ACME_Adv_1",
+      "projectUniqueName": "Hash_UIP_Adv",
+      "projectName": "Hash_UIP_Adv",
       "projectPath": "C:\\Users\\Xune\\Documents\\UiPath\\Hash_UIP_Advanced\\.local",
       "packagesPath": "C:\\Users\\Xune\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Xune\\Documents\\UiPath\\Hash_UIP_Advanced\\.local"
